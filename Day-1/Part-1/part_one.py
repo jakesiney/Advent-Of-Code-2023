@@ -10,7 +10,7 @@ def part_one(calibrations):
     return total
 
 
-with open('Day-1/Part-1/output.txt', 'r') as file:
+with open('Day-1/output.txt', 'r') as file:
     calibrations = file.readlines()
 
 print(part_one(calibrations))

@@ -1,6 +1,6 @@
 output_lines = []
 
-with open('Day-1/data.txt', 'r') as file:
+with open('Day-1/Part-2-B/output.txt', 'r') as file:
     for line in file:
         result_string = ''.join(filter(str.isdigit, line))
         output_lines.append(result_string)
